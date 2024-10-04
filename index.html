@@ -37,7 +37,16 @@
   transform: translateX(-15%);
 }
 
+.logo img {
+      width: 20%; /* The current size for desktop */
+    }
 
+    /* For smaller screens (mobile devices) */
+    @media screen and (max-width: 768px) {
+      .logo img {
+        width: 40%; /* Adjust to a larger size for mobile */
+      }
+    }
 
   </style>
   
